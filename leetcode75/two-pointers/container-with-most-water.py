@@ -5,6 +5,9 @@ Solution: Two-pointer approach.
 
 The idea is to start with the widest container and move the pointers inward,
 by moving the one pointing to the shorter line towards the center.
+
+The lower line is the bottleneck for the container's capacity.
+Moving the greater line will always obtain a smaller or equal area.
 """
 
 
